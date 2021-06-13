@@ -1,5 +1,4 @@
 ### Hi there 👋
-長らく更新していない........
 #### レポジトリ
 - [kyodai-board](https://github.com/yuta-ike/kyodai-board) - 大学のサークル検索アプリ。2020年9月ごろから開発中。現在は忙しくてお休み中。 Flutter/Dartを利用したネイティブアプリと、Reactを利用した管理・登録画面を開発。
 - [MeAble](https://github.com/yuta-ike/education-web-app) - SocialCreatorsハッカソンで作成したプロダクト（個人開発/4日間）。QRコードを利用した子供向けウェブアプリです。
