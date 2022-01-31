@@ -1,3 +1,5 @@
+Kyoto University undergraduate / (web) frontend engineer
+
 
 ### レポジトリ
 - [sushi-chat](https://github.com/osushi-academy/sushi-chat) - ハッカソンで最優秀賞をもらいその後継続開発しているイベント用のリアルタイムチャットアプリ（チーム開発）
