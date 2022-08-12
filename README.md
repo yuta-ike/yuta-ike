@@ -1,4 +1,4 @@
-Kyoto University undergraduate / (web) frontend engineer
+Kyoto University graduate student / (web) frontend engineer
 
 
 ### レポジトリ
