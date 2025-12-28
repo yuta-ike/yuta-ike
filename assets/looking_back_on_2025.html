@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2024~2025年の振り返り</title>
+  <title>2024~2025年の振り返り | yuta-ike</title>
+  <link rel="icon" href="/yuta-ike/favicon.png" />
+  <meta property="og:title" content="2024~2025年の振り返り | yuta-ike">
+  <meta property="og:image" content="https://yuta-ike.github.io/yuta-ike/looking_back_on_2025.png">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Selria1">
+  <meta name="theme-color" content="#f9f9f9">
   <style>
     * {
       box-sizing: border-box;
@@ -45,6 +52,10 @@
       background-color: #ffffff;
       border-radius: 4px;
       padding: 4px 8px;
+
+      summary {
+        cursor: pointer;
+      }
     }
   </style>
 </head>
@@ -77,10 +88,7 @@
       チームリーダーになった
     </h3>
     <p>
-      今年の10月にチームリーダーになりました。聞くところによると新卒入社では最短らしいです。
-    </p>
-    <p>
-      新しく立ち上がったプロダクトの開発を担当していますが、実はプロダクトが立ち上がる前から既にユーザーがたくさんいるという面白い状況のチームです。
+      今年の10月にチームリーダーになりました。聞くところによると新卒入社では最短との噂です。
     </p>
     <p>
       もともと四六時中コーディングや技術を触っていたいタイプではないので、仕様策定やPdM系のタスクなどにも手を広げることができて楽しくやってます。とはいえスタートアップあるあるだと思いますが、めちゃめちゃコードも書いています。
@@ -128,12 +136,9 @@
       <li>
         TSKaigi <a href="https://2024.tskaigi.org/" target="_blank" rel="noopener">2024</a>,
         <a href="https://2025.tskaigi.org/" target="_blank" rel="noopener">2025</a>, <a href="https://2026.tskaigi.org/"
-          target="_blank" rel="noopener">2026</a>
-      </li>
-      <li>
-        TSKaigi <a href="https://kansai.tskaigi.org/" target="_blank" rel="noopener">Kansai</a>,
+          target="_blank" rel="noopener">2026</a>, <a href="https://kansai.tskaigi.org/" target="_blank"
+          rel="noopener">Kansai</a>,
         <a href="https://hokuriku.tskaigi.org/" target="_blank" rel="noopener">Hokuriku</a>
-        rel="noopener">Kansai</a>, <a href="https://hokuriku.tskaigi.org/" target="_blank" rel="noopener">Hokuriku</a>
       </li>
       <li>
         TSKaigi Mashup <a href="https://typescript-jpc.connpass.com/event/325001/" target="_blank"
@@ -278,6 +283,49 @@
     <p>
       引き続きやっていきたいと思っています。自分の中で発表の型ができてきたので、次は長めのセッションも話したいですね。（やはりLTは短い）
     </p>
+    <h1 id="未踏" data-id="未踏">未踏</h1>
+    <p>
+      昨年の1番のトピックは未踏ITでした。自分の中では心残りもあり、仕事やカンファレンス業と並行して進める難しさも感じていました。<br />
+      途中メンタルブレイクしかけていたときは、特にPM（メンター）のに助けていただきました。曾川さんとは未踏のプロジェクトに限らず色々な話ができて、実は一番勉強になったのはこれかもしれません。
+    </p>
+    <p>
+      また、凄すぎる同期たちが凄すぎました。技術で名をあげる人のはこういう人たちなんだな、ということを感じました。
+    </p>
+    <p>
+      プロジェクト自体も落ち着いたタイミングで形にしたいと思っています。ただ時間が...
+    </p>
+    <h1 id="技術記事" data-id="来年も頑張ります">
+      技術記事
+    </h1>
+    <p>
+      毎年何か書きたいなぁと思いながらなかなか筆が乗らずにいます。この2年で書いたのはこの4本です。
+    </p>
+    <p>
+    <ul>
+      <li>【React】useStateの乱用を避ける（<a href="https://zenn.dev/yuta_ike/articles/react_check_logic">リンク</a>）
+      </li>
+      <li>TSKaigiのスポンサーです、リフレッシュクイズの解答解説をお送りします（<a href="https://www.m3tech.blog/entry/2024/05/16/100000">リンク</a>）
+      </li>
+      <li>TypeScriptで型レベル四則演算（<a href="https://www.m3tech.blog/entry/2024/12/09/112043">リンク</a>）
+      </li>
+      <li>Server Functions っぽい仕組みを自作して Lambda 関数呼び出しに適用してみた（<a
+          href="https://www.m3tech.blog/entry/2025/07/22/170104">リンク</a>）
+      </li>
+    </ul>
+    </p>
+    <p>
+      書きたいことはたくさんあります、Branded Type、React Fiber の話、フレームワークとの付き合い方、@tanstack/react-startを実務投入している話、etc...
+    </p>
+    <h1 id="OSS" data-id="OSS">
+      OSS
+    </h1>
+    <p>
+      今年後半にかけて、いくつかOSSにissueを立てたりPRを出したりしました。
+      来年も積極的に続けていきたいです。
+    </p>
+    <p>
+      初めてマージされたPRはprisma-lintでした（<a href="https://github.com/loop-payments/prisma-lint/pull/782">リンク</a>）
+    </p>
     <h1 id="興味関心" data-id="興味関心">興味関心</h1>
     <p>
       実はTSKaigiの打ち上げで「池奥さんは堅牢性と型の表現力あたりが好きそうですよね」と言われて以来、本当にその通りだなぁと思っています。
@@ -300,23 +348,18 @@
     <p>
       ただ理想論な部分もあるので、ぜひ色々探求していきたいなと思っています。
     </p>
-    <h1 id="未踏" data-id="未踏">未踏</h1>
-    <p>
-      昨年の1番のトピックは未踏ITでした。自分の中では心残りもあり、仕事やカンファレンス業と並行して進める難しさも感じていました。<br />
-      途中メンタルブレイクしかけていたときは、特にPM（メンター）のに助けていただきました。曾川さんとは未踏のプロジェクトに限らず色々な話ができて、実は一番勉強になったのはこれかもしれません。
-    </p>
-    <p>
-      また、凄すぎる同期たちが凄すぎました。技術で名をあげる人のはこういう人たちなんだな、ということを感じました。
-    </p>
-    <p>
-      プロジェクト自体も落ち着いたタイミングで形にしたいと思っています。ただ時間が...
-    </p>
-    <h1 id="来年も頑張ります13" data-id="来年も頑張ります">
+    <h1 id="来年も頑張ります" data-id="来年も頑張ります">
       来年も頑張ります
     </h1>
     <p>実は個人的な目標の1つにJSConf JP登壇があったのですが、早々に達成することができました。次はPMConfかな...笑</p>
     <p>
       入社直後はよくポストしていたのですが、たくさんの方に目をかけていただき、すごく恵まれている環境にあると常々思っています。お世話になったかた、本当にありがとうございました。引き続きよろしくお願いします。
+    </p>
+    <p>
+      <a target="_blank" rel="noopener"
+        href="https://x.com/intent/post?text=2025%E5%B9%B4%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A%20%7C%20yuta-ike&url=https%3A%2F%2Fyuta-ike.github.io%2Fyuta-ike%2Flooking_back_on_2025"
+        style="border: 1px solid #ccc; color: black; background: white; text-decoration: none; border-radius: 4px; padding: 6px 12px; font-size: 14px; letter-spacing: -1px;">X
+        でシェア</a>
     </p>
   </article>
 </body>
