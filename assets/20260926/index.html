@@ -1,0 +1,259 @@
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>yuta-ike</title>
+  <style>
+    body {
+      background: #F5F7F9;
+      color: #333333;
+      font-family: sans-serif;
+    }
+
+    :root {
+      --border: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, inset rgb(250, 250, 250) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.04) 0px 4px 6px 0px
+    }
+
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+
+    main {
+      padding: 16px;
+      margin: 0 auto;
+      display: grid;
+      max-width: 960px;
+      gap: 12px;
+      container-type: scroll-state;
+
+      grid-template: "profile" max-content "main" 1fr;
+
+      @media (960px <=width) {
+        grid-template: "main profile" / 1fr 320px;
+      }
+    }
+
+    a {
+      color: rgb(5, 161, 213);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .profile-section {
+      grid-area: profile;
+      position: relative;
+      top: 12px;
+      display: flex;
+      align-items: center;
+      height: fit-content;
+      gap: 12px;
+      padding: 8px;
+
+      @media (960px <=width) {
+        position: sticky;
+        margin-top: 63px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(5px);
+      box-shadow: var(--border);
+      border-radius: 12px;
+
+      h1 {
+        font-size: 18px;
+
+        .sub {
+          font-weight: normal;
+        }
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      & img {
+        border-radius: 999px;
+        width: 40px;
+        height: 40px;
+
+        @media (960px <=width) {
+
+          width: 80px;
+          height: 80px;
+
+        }
+      }
+
+      hr {
+        border-top: 1px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top-color: rgb(172, 172, 172);
+        height: 1px;
+        margin: 8px 0px;
+        align-self: stretch;
+      }
+
+      a {
+        background: rgb(30, 30, 30);
+        color: white;
+        border-radius: 999px;
+        padding: 8px 18px;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 1px;
+
+        @media (960px <=width) {
+          font-size: 16px;
+          padding: 6px 18px;
+        }
+
+      }
+    }
+
+    .center {
+      grid-area: main;
+
+      .title {
+        font-size: 18px;
+        margin: 24px 0px 12px 0px;
+        position: relative;
+        padding-left: 20px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 12px;
+          background: #557fa9;
+        }
+      }
+
+      .slide-wrapper {
+        padding: 16px;
+        background: white;
+        box-shadow: var(--border);
+        border-radius: 12px;
+      }
+
+      .links-wrapper {
+        padding: 16px;
+        background: white;
+        box-shadow: var(--border);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="center">
+      <div class="title">
+        <p>今日のスライド</p>
+      </div>
+      <div class="slide-wrapper">
+        <script async class="docswell-embed"
+          src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js"
+          data-src="https://www.docswell.com/slide/K7N3Q7/embed?key=20260926_findy" data-aspect="0.5625"></script>
+        <div class="docswell-link"><a href="https://www.docswell.com/s/4136989/K7N3Q7-20260926_findy">【テック文化祭
+            2026】好きなこと・楽しいことを仕事にしよう by @4136989</a></div>
+      </div>
+
+
+      <div class="title">
+        <p>参考リンク</p>
+      </div>
+      <ul class="links-wrapper">
+        <li>
+          <a target="_blank"
+            href="https://www.wantedly.com/companies/m3_inc/post_articles/983921">「好きが形になっていく」技術もキャリアもギークなカルチャーも楽しむ　エムスリー新卒エンジニアインタビュー</a>
+        </li>
+        <li>
+          <a target="_blank"
+            href="https://fresh.m3recruit.com/interview/FPQUrh6Q">「やりたい」を表明すれば実現する。チャンスを掴み続けたエンジニアの挑戦</a>
+        </li>
+      </ul>
+
+      <div class="title">
+        <p>もし質問があればこちらから</p>
+      </div>
+      <ul class="links-wrapper">
+        <li>
+          <a target="_blank" href="https://app.sli.do/event/g6vaNYxJSNjE1jAuB3kxXR">Slido</a> （時間があれば登壇中に拾います）
+        </li>
+      </ul>
+
+
+
+      <div class="title">
+        <p>参考スライド①</p>
+      </div>
+      <div class="slide-wrapper">
+        <script async class="docswell-embed"
+          src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js"
+          data-src="https://www.docswell.com/slide/K22D7N/embed?key=2025-06-11-200446" data-aspect="0.5625"></script>
+        <div class="docswell-link"><a
+            href="https://www.docswell.com/s/4136989/K22D7N-2025-06-11-200446">ハッカソン連勝経験者が語る！ハッカソン常勝のコツ！！ by
+            @4136989</a>
+        </div>
+      </div>
+
+      <div class="title">
+        <p>参考スライド②</p>
+      </div>
+      <div class="slide-wrapper">
+        <script async class="docswell-embed"
+          src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js"
+          data-src="https://www.docswell.com/slide/59G61Y/embed?key=2025-06-28-182436" data-aspect="0.5625"></script>
+        <div class="docswell-link"><a href="https://www.docswell.com/s/4136989/59G61Y-2025-06-28-182436">ソフトウェアエンジニアって
+            楽しいぞ by
+            @4136989</a></div>
+      </div>
+    </section>
+
+    <section class="profile-section">
+      <img src="https://yuta-ike.github.io/yuta-ike/x-icon.jpg" alt="@Selria1 のXのアイコン。なんの意味もない青いまだら模様を切り取ったアイコン" />
+      <div>
+        <h1>池奥裕太 <span class="sub">@yuta-ike</span></h1>
+        <p>今日は青いTSKaigiのTシャツ着てます！</p>
+      </div>
+      <hr>
+
+      <a href="https://x.com/Selria1" target="_blank">Xアカウント<svg xmlns="http://www.w3.org/2000/svg" width="16"
+          height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-external-link">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg></a>
+
+    </section>
+  </main>
+</body>
+
+</html>
